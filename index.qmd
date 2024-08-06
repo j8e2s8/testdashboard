@@ -4,9 +4,8 @@ author: "Gapminder Analytics Group"
 format: dashboard
 --- 
 
-jupyter
-platformdirs
-nbclient
+
+
 ```{python}
 import plotly.express as px
 df = px.data.gapminder()
